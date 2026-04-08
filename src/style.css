@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+    --color-osnovnoy-tekst: #686868;
+	--color-akcentnyy: #2f70d9;
+	--color-cvet-cta: #d95845;
+    --text-font-family: "Open Sans", sans-serif;
+    --text-second-family: "Lora", sans-serif;
+}
+
+.item {
+    @apply text-5 tracking-wide text-osnovnoy-tekst
+}
+
+.extra::after {
+    content: url('./images/chiziqcha.png');
+    display: block;
+    margin-top: 2px;
+    margin-left: -5px;
+}
