@@ -9,12 +9,12 @@
 }
 
 .item {
-    @apply text-5 tracking-wide text-osnovnoy-tekst
+    @apply text-[14px] tracking-wide text-osnovnoy-tekst
 }
 
 .extra::after {
     content: url('./images/chiziqcha.png');
     display: block;
-    margin-top: 2px;
-    margin-left: -5px;
+    margin-top: -7px;
+    margin-left: -15px;
 }
